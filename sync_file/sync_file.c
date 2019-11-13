@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     enum FILE_DIFF file_diff;
     if (argc < 3) {
         printf("Please provide the reference file and target file.\n");
-        return;
+        return 0;
     }
 
     ref_file = argv[1];
